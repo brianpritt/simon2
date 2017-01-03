@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/styles.css" type="text/css">
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+    <script src = "build/js/app.js"></script>
+    <title>Simon</title>
+  </head>
+  <body>
+    <div class="container-fluid">
+      <h1 class="title">Simon</h1>
+      <hr>
+      <div class="game-board">
+        <div class="row">
+          <div class="col-xs-3 col-xs-offset-3 game-tile red" id="red" value="red">
+          </div>
+          <div class="col-xs-3 game-tile blue" id="blue" value="blue">
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-xs-3 col-xs-offset-3 game-tile green" id="green" value="green">
+          </div>
+          <div class="col-xs-3 game-tile yellow" id="yellow" value="yellow">
+          </div>
+        </div>
+      </div>
+      <form id="start">
+        <button class="btn btn-info button" type="submit">New Game</button>
+      </form>
+      <div id="message"></div>
+    </div>
+  </body>
+</html>

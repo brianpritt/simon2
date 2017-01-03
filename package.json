@@ -1,0 +1,22 @@
+{
+  "name": "simon",
+  "version": "1.0.0",
+  "description": "1. Program generates a color out of 4 choices, adds to array 2. Program check for user input to see if it matches current color 3. if matches, add another color, and go through array again 4. if not match, game over",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "browserify": "^13.1.1",
+    "del": "^2.2.2",
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-jshint": "^2.0.4",
+    "gulp-uglify": "^2.0.0",
+    "gulp-util": "^3.0.8",
+    "jshint": "^2.9.4",
+    "vinyl-source-stream": "^1.1.0"
+  }
+}
